@@ -14,6 +14,7 @@
 		BC9E3AA31A2D8C52005B7D27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9E3AA21A2D8C52005B7D27 /* Images.xcassets */; };
 		BC9E3AA61A2D8C52005B7D27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9E3AA41A2D8C52005B7D27 /* LaunchScreen.xib */; };
 		BC9E3AB21A2D8C52005B7D27 /* ThreadUsingDespatchQueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9E3AB11A2D8C52005B7D27 /* ThreadUsingDespatchQueTests.m */; };
+		BCBC9F921A2EE478009B9B24 /* Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC9F911A2EE478009B9B24 /* Methods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BC9E3AAB1A2D8C52005B7D27 /* ThreadUsingDespatchQueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadUsingDespatchQueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9E3AB01A2D8C52005B7D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9E3AB11A2D8C52005B7D27 /* ThreadUsingDespatchQueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadUsingDespatchQueTests.m; sourceTree = "<group>"; };
+		BCBC9F901A2EE478009B9B24 /* Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
+		BCBC9F911A2EE478009B9B24 /* Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Methods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BC9E3A9A1A2D8C52005B7D27 /* AppDelegate.m */,
 				BC9E3A9C1A2D8C52005B7D27 /* ViewController.h */,
 				BC9E3A9D1A2D8C52005B7D27 /* ViewController.m */,
+				BCBC9F901A2EE478009B9B24 /* Methods.h */,
+				BCBC9F911A2EE478009B9B24 /* Methods.m */,
 				BC9E3A9F1A2D8C52005B7D27 /* Main.storyboard */,
 				BC9E3AA21A2D8C52005B7D27 /* Images.xcassets */,
 				BC9E3AA41A2D8C52005B7D27 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBC9F921A2EE478009B9B24 /* Methods.m in Sources */,
 				BC9E3A9E1A2D8C52005B7D27 /* ViewController.m in Sources */,
 				BC9E3A9B1A2D8C52005B7D27 /* AppDelegate.m in Sources */,
 				BC9E3A981A2D8C52005B7D27 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				BC9E3AB71A2D8C52005B7D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9E3AB81A2D8C52005B7D27 /* Build configuration list for PBXNativeTarget "ThreadUsingDespatchQueTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				BC9E3ABA1A2D8C52005B7D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
